@@ -1,0 +1,168 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 3221225472 VECTOR__INDEPENDENT_SIG_MSG: 0 Vector__XXX
+ SG_ New_Signal_49 : 0|2@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 37 STR1S01: 8 Vector__XXX
+ SG_ SSAV : 35|12@0- (1,0) [0|0] "deg/s" Vector__XXX
+ SG_ SSA : 3|12@0- (1.5,0) [0|0] "deg" Vector__XXX
+
+BO_ 400 DS11S15: 8 Vector__XXX
+ SG_ TTCSTS : 23|4@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ PCSTRIG : 25|2@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 250 VGR2F01: 8 Vector__XXX
+ SG_ VGRSANG : 5|14@0- (0.001,0) [0|0] "rad" Vector__XXX
+
+BO_ 38 VGR1F01: 8 Vector__XXX
+ SG_ VGRSANG : 5|14@0- (0.001,0) [0|0] "rad" Vector__XXX
+
+BO_ 44 ARS1S01: 8 Vector__XXX
+ SG_ ARSANG : 5|14@0- (5E-005,0) [0|0] "rad" Vector__XXX
+
+BO_ 180 VSC1S03: 8 Vector__XXX
+ SG_ SP1S : 33|1@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 550 VSC1F06: 8 Vector__XXX
+ SG_ FBA : 20|1@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 800 VSC1S07: 8 Vector__XXX
+ SG_ P2BRXMK : 12|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ FVSCSFT : 3|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ FABS : 2|1@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1572 BDB1S08: 8 Vector__XXX
+ SG_ STRG_WHL : 47|2@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ DEST_BDB : 23|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ C_CODE3 : 39|4@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ C_CODE2 : 27|4@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ C_CODE1 : 31|4@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ BDB08_IF : 15|8@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ BDB08_ID : 7|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1017 ENG1F03: 8 Vector__XXX
+ SG_ OBDINF : 27|4@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 466 ENG2F04: 8 Vector__XXX
+ SG_ ACCSTAT : 15|3@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ XACCACT : 5|1@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 921 ENG1S95: 8 Vector__XXX
+ SG_ ACASID2 : 15|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 710 ENG1S04: 8 Vector__XXX
+ SG_ XACCACT : 18|1@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1042 DS12F03: 8 Vector__XXX
+ SG_ LKAWLSR : 3|2@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ LKAWLSL : 5|2@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ LKATUCT : 14|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ LKAFCT : 15|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ LKACB : 12|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ LDWBZ : 32|1@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1041 DS12F02: 8 Vector__XXX
+ SG_ PCSTUCT : 2|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ PCSWM : 5|2@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ PCSTEMP2 : 42|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ PCSTEMP : 35|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ PCSFCT : 3|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ PCSDUST2 : 41|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ PCSDUST : 34|1@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1009 DS11F90: 8 Vector__XXX
+ SG_ DSLTM : 5|2@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ DSLCCW : 6|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ DSCCSET : 10|1@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 740 ACC1S09: 5 Vector__XXX
+ SG_ LKFACT : 0|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ ACC09SUM : 39|8@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 835 ACC1S03: 8 Vector__XXX
+ SG_ LCCWOK : 25|1@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 836 ACC1F01: 8 Vector__XXX
+ SG_ PBRTRGR : 32|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ PREFILL : 33|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ PPTRGR : 28|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ PCSALM : 17|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ IBTRGR : 27|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ DSS1GDRV : 7|10@0- (1,0) [0|0] "" Vector__XXX
+ SG_ DS1STAT2 : 13|3@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ PCSOPR : 16|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ VGRSTRGR : 34|1@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 580 EHV1S09: 8 Vector__XXX
+ SG_ HVMRADRR : 23|16@0- (1,0) [0|0] "" Vector__XXX
+ SG_ HVMRADFR : 39|16@0- (1,0) [0|0] "" Vector__XXX
+
+BO_ 643 DS11F01: 8 Vector__XXX
+ SG_ PCSNOCHG : 41|1@0+ (1,0) [0|0] "" Vector__XXX
+ SG_ DSS1STAT : 36|3@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 452 ENG1F07: 8 Vector__XXX
+ SG_ NE1 : 7|16@0- (0.78125,0) [0|0] "rpm" Vector__XXX
+
+BO_ 581 EHV1F03: 8 Vector__XXX
+ SG_ HVMRADFR : 7|16@0- (1,0) [0|0] "" Vector__XXX
+ SG_ HV_ACCP : 23|8@0+ (0.5,0) [0|0] "Åì" Vector__XXX
+
+BO_ 705 ENG1S01: 8 Vector__XXX
+ SG_ EACCP : 55|8@0+ (0.5,0) [0|0] "Åì" Vector__XXX
+
+
+
+CM_ BO_ 3221225472 "This is a message for not used signals, created by Vector CANdb++ DBC OLE DB Provider.";
+BA_DEF_ SG_  "GenSigSendType" ENUM  "Cyclic","OnWrite","OnWriteWithRepetition","OnChange","OnChangeWithRepetition","IfActive","IfActiveWithRepetition","NoSigSendType";
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 0;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 0;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic","not_used","not_used","not_used","not_used","Cyclic","not_used","IfActive","NoMsgSendType";
+BA_DEF_ BU_  "NmStationAddress" HEX 0 0;
+BA_DEF_  "DBName" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_DEF_  "GenSigSendType" "Cyclic";
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "GenMsgSendType" "NoMsgSendType";
+BA_DEF_DEF_  "NmStationAddress" 0;
+BA_DEF_DEF_  "DBName" "";
+BA_DEF_DEF_  "BusType" "CAN";
+BA_ "DBName" "_XbgSmF";
+
