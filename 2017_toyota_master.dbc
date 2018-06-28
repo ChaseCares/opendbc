@@ -1415,7 +1415,7 @@ BO_ 917 SCS1S90: 4 SCS
  SG_ LAR_HS : 18|2@0+ (1,0) [0|0] "" Vector__XXX
  SG_ AVSNI : 16|1@0+ (1,0) [0|0] "" Vector__XXX
 
-BO_ 37 STR1S01: 8 CGW
+BO_ 37 Steering_Angle_sensor: 8 CGW
  SG_ STS3 : 7|1@0+ (1,0) [0|0] "" AFS,BSR,DS1,FCM,MAV
  SG_ STS2 : 6|1@0+ (1,0) [0|0] "" AFS,DS1,FCM,KSS,MAV,SCS
  SG_ STS1 : 5|1@0+ (1,0) [0|0] "" AFS,BSR,DS1,FCM,KSS,MAV,SCS
@@ -1433,7 +1433,7 @@ BO_ 1059 STR1S02: 1 CGW
  SG_ SFR : 5|1@0+ (1,0) [0|0] "" MAV
  SG_ STRWVG : 4|1@0+ (1,0) [0|0] "" AFS,BSR,DS1,FCM
 
-BO_ 170 VSC1F01: 8 CGW
+BO_ 170 Wheel_speeds: 8 CGW
  SG_ VXFREF : 7|1@0+ (1,0) [0|0] "" AFS,FCM,MAV
  SG_ VXFR : 6|15@0+ (0.01,-67.67) [0|0] "km/h" AFS,BSR,DS1,FCM,KSS,MAV,SCS
  SG_ VXFLEF : 23|1@0+ (1,0) [0|0] "" AFS,FCM,MAV
@@ -1458,7 +1458,7 @@ BO_ 426 VSC1F02: 6 CGW
  SG_ VXRLHDS : 22|1@0+ (1,0) [0|0] "" FCM,KSS,MAV,SCS
  SG_ VSCF02SM : 47|8@0+ (1,0) [0|0] "" AFS,DS1,FCM,MAV
 
-BO_ 550 VSC1F06: 8 CGW
+BO_ 550 Brake_module: 8 CGW
  SG_ VSCF01FG : 7|2@0+ (1,0) [0|0] "" Vector__XXX
  SG_ AHCURQ : 4|1@0+ (1,0) [0|0] "" Vector__XXX
  SG_ PMCF : 3|1@0+ (1,0) [0|0] "" DS1
@@ -1476,7 +1476,7 @@ BO_ 550 VSC1F06: 8 CGW
  SG_ FSTP : 60|1@0+ (1,0) [0|0] "" DS1
  SG_ ABSACT : 59|1@0+ (1,0) [0|0] "" DS1,FCM,MAV
 
-BO_ 180 VSC1S03: 8 CGW
+BO_ 180 Speed : 8 CGW
  SG_ SP1P : 39|6@0+ (1,0) [0|0] "" DS1,FCM
  SG_ SP1S : 33|1@0+ (1,0) [0|0] "" BSR,DS1,FCM,MAV
  SG_ SP1 : 47|16@0- (0.01,0) [0|0] "km/h" BSR,DS1,FCM,MAV
@@ -1596,7 +1596,7 @@ BO_ 544 VSC2F07: 4 CGW
  SG_ DAC_CND : 9|2@0+ (1,0) [0|0] "" Vector__XXX
  SG_ VSC2F07S : 31|8@0+ (1,0) [0|0] "" DS1,FCM
 
-BO_ 36 YGS1S03: 8 CGW
+BO_ 36 Kinematics: 8 CGW
  SG_ YRS11S : 7|1@0+ (1,0) [0|0] "" DS1,FCM,MAV
  SG_ YRS14S : 6|1@0+ (1,0) [0|0] "" DS1,FCM,MAV
  SG_ YRS21S : 5|1@0+ (1,0) [0|0] "" DS1,FCM,MAV
@@ -1636,3 +1636,11 @@ BO_ 1073743494 YGW1S05_0: 8 CGW
  SG_ YI_IMO_E : 23|1@0+ (1,0) [0|0] "" Vector__XXX
  SG_ YI_UREQ : 16|1@0+ (1,0) [0|0] "" Vector__XXX
  SG_ YI_RE : 47|16@0+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 740 Steering_LKA: 8 XXX
+
+BO_ 166 Brake : 8 XXX
+
+BO_ 295 Gear_packet : 8 XXX
+
+BO_ 608 Steering_torque_sensor: 8 XXX
